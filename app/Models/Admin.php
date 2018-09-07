@@ -41,9 +41,9 @@ class Admin extends Authenticatable
      * [getFileList description]
      * @return [array] [description]
      */
-    public function getFileList()
+    public function getFieldList()
     {
-    	return $this->fillable();
+    	return $this->fillable;
     }
 
     /**
